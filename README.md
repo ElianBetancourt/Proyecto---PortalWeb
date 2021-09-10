@@ -3,7 +3,7 @@ Este es un proyecto, que se encargar de craear un Auth (login and register) atra
 
 Intrucciones:
 
-El programa corre con el script ( npm run dev), la base de datos en mysql se llama (login_db) y la tables (users) esta se encuentra en el (database)
+El programa corre con el script ( npm run dev), la base de datos en mysql se llama (login_db) y la tables (users) esta se encuentra en el (database) utilice XAMPP Control panel
 
 - Elian David Betancourt Negrete
 - Angel Manuel Cordero Falco
