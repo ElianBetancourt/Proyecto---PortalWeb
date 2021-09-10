@@ -1,0 +1,111 @@
+
+<div class="sidebar">
+    <div class="logo_content">
+        <div class="logo">
+            <i class='bx bxs-window-alt'></i>
+            <div class="logo_name">AppPortal</div>
+        </div>
+        <i class='bx bx-menu' id="btn"></i>
+    </div>
+    <ul class="nav_list">
+        <li>
+            <i class="bx bx-search"></i>
+            <input type="text" placeholder="Search...">
+            <span class="tooltip"> Search</span>
+        </li>
+        <li>
+            <a href="/home">
+                <i class="bx bx-grid-alt"></i>
+                <span class="links_name">Home</span>
+            </a>
+            <span class="tooltip"> Home</span>
+        </li>
+        <li>
+            <a href="a">
+                <i class='bx bx-play-circle'></i>
+                <span class="links_name">Games</span>
+            </a>
+            <span class="tooltip"> Games</span>
+        </li>
+        <li>
+            <a href="a">
+                <i class='bx bx-movie'></i>
+                <span class="links_name">Movies</span>
+            </a>
+            <span class="tooltip"> Movies</span>
+        </li>
+        <li>
+            <a href="a">
+                <i class='bx bx-book-reader'></i>
+                <span class="links_name">Courses</span>
+            </a>
+            <span class="tooltip"> Courses</span>
+        </li>
+        <li>
+            <a href="a">
+                <i class='bx bx-layer-plus'></i>
+                <span class="links_name">Content</span>
+            </a>
+            <span class="tooltip"> Content</span>
+        </li>
+        <li>
+            <a href="a">
+                <i class='bx bxs-bookmark-plus'></i>
+                <span class="links_name">Save</span>
+            </a>
+            <span class="tooltip"> Save</span>
+        </li>
+        <li>
+            <a href="a">
+                <i class='bx bx-detail'></i>
+                <span class="links_name">Info</span>
+            </a>
+            <span class="tooltip"> Info</span>
+        </li>
+        <li>
+            <a href="a">
+                <i class="bx bx-grid-alt"></i>
+                <span class="links_name">DashBoard</span>
+            </a>
+            <span class="tooltip"> DashBoard</span>
+        </li>
+    </ul>
+
+    <div class="profile_content">
+        <div class="profile">
+            <div class="profile_details">
+                <img src="resources/perfil.png" alt="" srcset="">
+                <div class="name_user">
+                    <div class="name">Elian Betancourt</div>
+                    <div class="details">Programador</div>
+                </div>
+            </div>
+            <a href="/" class="text-light">
+                <i class='bx bx-log-out' id="log_out"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+<script>
+    let btn = document.querySelector("#btn");
+    let sidebar = document.querySelector(".sidebar");
+    let searchBtn = document.querySelector(".bx-search");
+
+    btn.onclick = () => {
+        sidebar.classList.toggle('active');
+    }
+
+    searchBtn.onclick = () => {
+        sidebar.classList.toggle('active');
+    }
+</script>
+
+    <div class="home_content">  
+            {{>message}}    
+        <div class="text">Home Casdadsontent
+           
+        </div>
+    </div>
+  </div>  
+
